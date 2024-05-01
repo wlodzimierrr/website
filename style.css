@@ -436,7 +436,7 @@ section {
   .contact-icon {
     cursor: default;
   }
-  
+
   .email-icon {
     height: 2.5rem;
   }
@@ -450,4 +450,8 @@ footer {
   
   footer p {
     text-align: center;
+  }
+
+  footer a {
+    cursor: pointer;
   }
