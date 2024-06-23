@@ -68,11 +68,16 @@ a {
 }
 
 a:hover {
-  color:rgb(244, 159, 0);;
+  color:rgb(244, 159, 0);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(244, 159, 0);;
+  text-decoration-color: rgb(244, 159, 0);
 }
+
+a.a-footer:hover {
+  text-underline-offset: 0.1rem !important;
+}
+
 
 .logo {
   font-family: "Shadows Into Light", cursive;
