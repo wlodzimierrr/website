@@ -10,6 +10,29 @@
     #projects {
       height: fit-content;
     }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+
+    .about-container {
+      margin-top: 0;
+    }
+    
+    #experience,
+    .experience-details-container, #about, .about-details-container {
+      margin-top: 2rem;
+    }
+    #contact,
+    footer {
+      height: 40vh;
+    }
   }
   
   @media screen and (max-width: 1200px) {
