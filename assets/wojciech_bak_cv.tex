@@ -1,0 +1,129 @@
+
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.5in}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyfoot[C]{\thepage}
+
+% Adjust spacing for sections
+\titlespacing*{\section}{0pt}{5pt}{5pt}
+\titlespacing*{\subsection}{0pt}{3pt}{3pt}
+
+\titleformat{\section}{\scshape\large}{}{0pt}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\small}{}{0pt}{}
+
+\renewcommand{\labelitemi}{$\bullet$}
+
+% Custom settings for the header with the name and contact details
+\begin{document}
+
+\begin{center}
+    {\LARGE \textsc{Wojciech Bak}} \\
+    Bishopstoke, Eastleigh, Hampshire SO50 6BX \\
+    07842503730 \\
+    \href{mailto:wojciech-bak@wlodzimierr.co.uk}{wojciech-bak@wlodzimierr.co.uk} \\
+    \href{https://wlodzimierr.co.uk}{https://wlodzimierr.co.uk} \\
+    \href{https://github.com/wlodzimierr}{https://github.com/wlodzimierr} \quad
+    \href{https://leetcode.com/u/wlodzimierr/}{https://leetcode.com/u/wlodzimierr/} \quad
+    \href{https://www.codecademy.com/profiles/wlodzimierr}{https://www.codecademy.com/profiles/wlodzimierr}
+\end{center}
+
+\section*{Professional Summary}
+A reliable, approachable, hard-working, and self-motivated individual who takes pride in completing tasks to a high standard. Known for punctuality, adaptability, and rapid skill development. With a solid background in the automotive and construction industries, problem-solving skills have been honed and are now being applied to software development. Currently pursuing studies in management, economics, and statistics at university while undertaking courses and personal projects in software engineering and data engineering.
+
+\section*{Projects}
+\subsection*{Software Developer, 02/2024 - Current}
+\textbf{Personal Project - } \href{https://compareproducts.wlodzimierr.co.uk}{compareproducts.wlodzimierr.co.uk}
+\begin{itemize}
+    \item Developed website and mobile app for building product comparison, automated scrapers, data cleaning, indexing, and CI/CD pipeline.
+    \item Next.js front end, using Tailwind CSS and Shadcn UI.
+    \item Nginx and Certbot for web server and SSL certificates.
+    \item Mobile App with Next JS, Ionic, Capacitor and Tailwind CSS.
+    \item Automated Python scrapers for B\&Q, Tradepoint, Screwfix, and Wickes, containerized and hosted on AWS EC2, integrating Lambda, EventBridge, and AWS Simple Email Service.
+    \item PostgreSQL on AWS RDS with Algolia Search for advanced indexing.
+    \item CI/CD with GitHub Actions, AWS ECR, and Docker.
+    \item Set up Prometheus and Promtail to pass logs and metrics from every scraper, and display this data on a custom-made Grafana dashboard.
+    \item Grafana, Prometheus, Loki, Promtail, Cadvisor, and Node Exporter for telemetry monitoring solutions.
+    \item Check out more detailed info at \href{https://github.com/wlodzimierr/CompareBuildingProducts\_Scrapers}{github.com/wlodzimierr/CompareBuildingProducts\_Scrapers}
+\end{itemize}
+
+\subsection*{DevOps Engineer, 08/2024 - Current}
+\textbf{Personal Project - Raspberry Pi}
+\begin{itemize}
+    \item Configured and implemented firewall security.
+    \item Installed and configured Docker and Docker Compose for containerized applications.
+    \item Managed and optimized Docker Compose files and networks for efficient service orchestration.
+    \item Deployed and hosted WordPress websites and Compare Website within Docker containers.
+    \item Set up a secure WireGuard VPN tunnel between a Raspberry Pi (on a guest network) and an EC2 instance, eliminating the need for open ports on the router.
+    \item Deployed and managed Docker Socket Proxy and Node Exporter to gather real-time metrics and improve system monitoring.
+    \item Set up EC2 instance monitoring services, running Prometheus, Homepage, Portainer, and Alertmanager for comprehensive system monitoring and management.
+    \item Established WireGuard connections to laptop and mobile phone for secure, remote access to a Homepage App.
+    \item Configured Caddy as a reverse proxy to securely manage hosted websites, the homepage URL, and SSL certificates.
+    \item Implemented OAuth authentication via Caddy, restricting access to the homepage URL exclusively to a designated email address for enhanced security.
+\end{itemize}
+
+\section*{Education}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Bachelor of Arts: } Business Management With Economics \hfill 09/2022 - Current \\
+    Open University - Milton Keynes \\
+    Completed a Statistics module in the first year with distinction. Currently on track to attain either a First or a 2:1 final grade.
+    \item \textbf{Full-Stack Engineering: } HTML, CSS, JavaScript, Git \& GitHub, React, Node.js, Express.js, SQL, Data Structures, Algorithms \hfill 06/2023 - 05/2024 \\
+    Codecademy - Distance Learning
+    \item \textbf{Business Intelligence Data Analyst: } SQL, Pandas, Matplotlib, Seaborn, Tableau, Excel \hfill 01/2024 - 09/2024 \\
+    Codecademy - Distance Learning
+\end{itemize}
+
+\section*{Skills}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*]
+    \item Ability to work well with others and independently using my initiative
+    \item Strong analytical and problem-solving skills
+    \item Self-motivated and results-driven
+    \item Excellent written and verbal communication skills
+    \item Proven ability to build and maintain customer relationships
+    \item Jupyter Notebooks
+    \item Source Control (GIT, GitHub)
+    \item Operation System (Windows, Linux)
+    \item Microsoft Office (Word, Excel, PowerPoint)
+    \item Software Development Methodologies (Scrum)
+    \item Frontend (React, NextJS, Angular)
+\end{itemize}
+
+\columnbreak
+
+\begin{itemize}[leftmargin=*]
+    \item Backend (Express JS, Node JS, Python)
+    \item Cloud Computing (AWS, GCP)
+    \item Database Management (SQL, NoSQL, PostgreSQL, MongoDB)
+    \item Python (Flask, Scikit-Learn, Pandas, PyTorch, TensorFlow)
+    \item JavaScript, TypeScript
+    \item Web Scraping (Requests, Selenium, Scrapy, Puppeteer)
+    \item Data Analytics (Python, Minitab)
+    \item Data Structures and Algorithms
+    \item Telemetry (Grafana, Prometheus, Loki, Promtail)
+    \item Web Servers (Caddy, Nginx)
+    \item Testing (Jest, Swagger, Postman)
+\end{itemize}
+\end{multicols}
+
+\section*{Affiliations}
+\begin{itemize}[leftmargin=*]
+    \item Weight Lifting, Boxing, Running
+    \item Financial Markets
+    \item Books (Psychology, Biographies, Technicals)
+\end{itemize}
+
+\section*{Languages}
+\begin{itemize}[leftmargin=*]
+    \item English - Fluent
+    \item Polish - Native
+\end{itemize}
+
+\end{document}
